@@ -1,0 +1,6 @@
+{
+  "name": "Universal Health Care AI",
+  "description": "Healthcare for Everyone, Everywhere. Discover verified healthcare providers, book appointments, access multilingual AI voice assistance, manage queue tokens, and digital health records.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

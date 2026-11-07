@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0284c7" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <!-- Medical Plus Shield and AI Node -->
+  <g filter="url(#shadow)">
+    <!-- Shield Outline -->
+    <path d="M256 90 C 330 90, 390 120, 390 190 C 390 310, 256 410, 256 410 C 256 410, 122 310, 122 190 C 122 120, 182 90, 256 90 Z" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-width="8" stroke-linejoin="round" />
+    
+    <!-- Bold Medical Cross -->
+    <rect x="226" y="160" width="60" height="180" rx="16" fill="#ffffff" />
+    <rect x="166" y="220" width="180" height="60" rx="16" fill="#ffffff" />
+    
+    <!-- Central AI Pulse / Sparkle Star -->
+    <circle cx="256" cy="250" r="18" fill="#0d9488" />
+    <polygon points="256,224 263,243 282,250 263,257 256,276 249,257 230,250 249,243" fill="#ffffff" />
+    
+    <!-- Heartbeat accent line -->
+    <path d="M190 330 L 220 330 L 235 305 L 255 350 L 275 320 L 290 330 L 322 330" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
